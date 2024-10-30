@@ -2,9 +2,7 @@
 
 Video Frame Interpolation Transformer based on Shifted-window and Cross-Scale window.
 
-This repo is the implementation of SwinCS-VFIT.
-
-[Paper](https://www.arocmag.com/abs/2023.07.0344)
+This repo is the implementation of SwinCS-VFIT. [Paper](https://www.arocmag.com/abs/2023.07.0344)
 
 ## Packages
 
@@ -47,15 +45,16 @@ More datasets for evaluation:
 
 ## Interpolate
 
+Folders structure like this:
+
 ```sh
-# get the following folders:
 .
 ├── inter_data
-|   ├── folder1
-|   |   ├── im1.jpg
-|   |   ├── ...
-|   |   └── im7.jpg
-|   └── ...
+│   ├── folder1
+│   │   ├── im1.jpg
+│   │   ├── ...
+│   │   └── im7.jpg
+│   └── ...
 ├── out_data
 └── SwinCS-VFIT
     ├── interpolate_demo1.py
@@ -85,3 +84,5 @@ Some other great video interpolation resources that we benefit from:
 * FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation, arXiv 2021 [Code](https://github.com/tarun005/FLAVR)
 * QVI: Quadratic Video Interpolation, NeurIPS 2019 [Code](https://github.com/xuxy09/QVI)
 * AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation, CVPR 2020 [Code](https://github.com/HyeongminLEE/AdaCoF-pytorch)
+
+Thanks a lot!
